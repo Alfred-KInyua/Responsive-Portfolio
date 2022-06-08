@@ -1,0 +1,26 @@
+img { max-width: 100%; }
+
+.bg-image {
+  background-image: url(images/desktopbg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: -1;
+  max-width: 100%;
+  border: none;
+}
+
+.lets {
+  margin: 0 20% 0 20%;
+}
+
+.let {
+  width: 50%;
+}
+
+.bg-desk {
+  background-image: url(images/ImgPlaholder.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
