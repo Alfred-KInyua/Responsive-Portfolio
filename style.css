@@ -3,7 +3,7 @@ img {
 }
 
 .bg-image {
-  background-image: url(images/desktopbg.svg);
+  background-image: url(images/background.svg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -15,7 +15,7 @@ img {
 }
 
 .let {
-  width: 50%;
+width: 100%;
 }
 
 .bg-desk {
@@ -23,5 +23,15 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .bg-image {
+    background-image: url(images/desktopbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
