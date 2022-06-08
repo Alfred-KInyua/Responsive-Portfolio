@@ -3,11 +3,13 @@ img {
 }
 
 .bg-image {
-  background-image: url(images/background.svg);
+  background-image: url(images/desktopbg.svg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  z-index: -1;
   max-width: 100%;
+  border: none;
 }
 
 .lets {
@@ -15,7 +17,7 @@ img {
 }
 
 .let {
-width: 100%;
+  width: 50%;
 }
 
 .bg-desk {
@@ -24,14 +26,3 @@ width: 100%;
   background-repeat: no-repeat;
   max-width: 100%;
 }
-
-@media (min-width: 768px) {
-  .bg-image {
-    background-image: url(images/desktopbg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    max-width: 100%;
-  }
-}
-/*# sourceMappingURL=style.css.map */
